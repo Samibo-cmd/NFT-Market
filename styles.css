@@ -393,7 +393,7 @@ section {
   width: 1392px;
   height: 397px;
   margin-left: 264px;
-  margin-top: 100px;
+  margin-top: 200px;
   display: flex;
 }
 .footer-left {
@@ -492,7 +492,6 @@ section {
 .newsletter-text {
   width: 85px;
   height: 19px;
-  /*margin-top: 16px;*/
   margin-left: 32px;
   font-family: Inter;
   font-size: 16px;
