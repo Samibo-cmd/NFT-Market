@@ -348,6 +348,106 @@ section {
   margin-top: -63px;
 }
 
+.triple-section-right {
+  width: 448px;
+  height: 841px;
+  border: 1px solid #262840;
+  border-radius: 20px;
+  padding: 40px;
+}
+.top-NFT {
+  width: 314px;
+  height: 80px;
+  font-family: Sora;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40.32px;
+  color: #ffffff;
+}
+.top-NFT-1 {
+  width: 368px;
+  height: 120px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-NFT-1-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+}
+.top-NFT-1-image img {
+  border-radius: 20px;
+}
+.top-NFT-1-image-right {
+  width: 232px;
+  height: 120px;
+}
+.top-french {
+  width: 232px;
+  height: 40px;
+  font-family: Sora;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.16px;
+  color: #ffffff;
+}
+.timer-container {
+  width: 232px;
+  height: 28px;
+  margin-top: 11px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.timer-image {
+  width: 67px;
+  height: 21px;
+}
+.timer {
+  width: 76px;
+  height: 28px;
+  border-radius: 4px;
+  padding: 6px 10px;
+  background-color: rgb(101, 24, 152, 0.3);
+  color: #514CFF;
+  font-family: Sora;
+  font-size: 13px;
+  font-weight: 600;
+}
+.bidding-stats {
+  width: 232px;
+  height: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.bidding-stats-figure {
+  width: 154px;
+  height: 21px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  color: #7780A1;
+}
+.bidding-stats img {
+  width: 16.67px;
+  height: 14.86px;
+}
+.show-more-2 {
+  width: 368px;
+  height: 52px;
+  margin-top: 30px;
+  border: 2px solid #262840;
+  border-radius: 12px;
+  padding: 16px 24px;
+  color: #7780A1;
+  background-color: inherit;
+}
+
+/*-------5th section styling-----*/
 .image-text {
   width: 1392px;
   height: 616px;
@@ -364,24 +464,32 @@ section {
 .footer img {
   width: 100%;
 }
+
+/*-----6th section - Popular auction----*/
 .popular-auction {
   width: 1392px;
   height: 855px;
   margin-left: 264px;
   margin-top: 100px;
 }
+
+/*-----7th section-----*/
 .section-with-icons {
   width: 920px;
   height: 135px;
   margin-left: 500px;
   margin-top: 100px;
 }
+
+/*----8th section styling---*/
 .folder-section {
   width: 920px;
   height: 597px;
   margin-left: 500px;
   margin-top: 100px;
 }
+
+/*----9th section - scrolling section------*/
 .scrolling-ETH {
   width: 2010px;
   height: 89px;
@@ -389,6 +497,7 @@ section {
   margin-top: 100px;
 }
 
+/*----Footer styling----*/
 .footer {
   width: 1392px;
   height: 397px;
