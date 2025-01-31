@@ -60,6 +60,7 @@ nav p {
   color: #ffffff;
 }
 
+/*-------First section styling------*/
 .details-container {
   width: 1392px;
   height: 906px;
@@ -249,6 +250,7 @@ nav p {
   margin-top: 20px;
 }
 
+/*---------Second section styling------*/
 .more-form {
   width: 1392px;
   height: 779px;
@@ -300,6 +302,7 @@ nav p {
   box-shadow: 4px 4px 4px #ffffff, -4px -4px 4px #000000;
 }
 
+/*-------Footer styling------*/
 .footer {
   width: 1392px;
   height: 397px;
@@ -403,7 +406,6 @@ nav p {
 .newsletter-text {
   width: 85px;
   height: 19px;
-  /*margin-top: 16px;*/
   margin-left: 32px;
   font-family: Inter;
   font-size: 16px;
