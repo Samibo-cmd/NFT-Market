@@ -13,7 +13,7 @@ body {
 .details-page {
   width: 300px;
   text-align: center;
-  background-color: #4745D0;
+  background-color: #212062;
   font-size: 24px;
   margin-left: 450px;
   margin-top: 50px;
@@ -22,7 +22,7 @@ body {
 }
 .details-page a {
   text-decoration: none;
-  color: #ffffff;
+  color: #7780A1;
   margin-bottom: 10px;
 }
 
@@ -456,7 +456,6 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /*padding-bottom: 50px;*/
   border-bottom: 1px solid #262840;
 }
 .left-image-2 {
@@ -468,7 +467,6 @@ section {
 .text-image-right {
   width: 590px;
   height: 578px;
-  /*margin-top: 19px;*/
 }
 .overline-3 {
   width: 263px;
@@ -534,7 +532,7 @@ section {
   font-size: 16px;
   font-weight: 600;
 }
-.popular-auction img,
+
 .section-with-icons img,
 .folder-section img,
 .scrolling-ETH img,
@@ -545,11 +543,149 @@ section {
 /*-----6th section - Popular auction----*/
 .popular-auction {
   width: 1392px;
-  height: 855px;
+  height: 940px;
   margin-left: 264px;
   margin-top: 100px;
+  border-bottom: 1px solid #262840;
+}
+.overline-4 {
+  width: 263px;
+  height: 18px;
+  margin-left: 580px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  color: #7780A1;
+  text-align: center;
+}
+.most-popular {
+  width: 494px;
+  height: 45px;
+  margin-top: 16px;
+  font-family: Sora;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45.36px;
+  color: #ffffff;
+  margin-left: 490px;
+}
+.sixt-section-details {
+  width: 437px;
+  height: 36px;
+  margin-left: 478px;
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sixt-section-details p {
+  padding: 8px;
+  border-radius: 8px;
+  height: 36px;
+  color: #7780A1;
+}
+.architecture {
+  width: 123px;
+  border: 2px solid #262840;
+}
+.photography {
+  width: 125px;
+  border: 2px solid #7780A1;
+}
+.games {
+  width: 74px;
+  border: 2px solid #262840;
+}
+.music {
+  width: 67px;
+  border: 2px solid #262840;
 }
 
+.sixt-section-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1392px;
+  height: 504px;
+  margin-top: 65px;
+}
+.flex-box {
+  width: 212px;
+  height: 504px;
+}
+.flex-image-container {
+  width: 212px;
+  height: 355px;
+}
+.flex-image-container img {
+  width: 100%;
+  border-radius: 20px;
+}
+.flex-french {
+  width: 212px;
+  height: 40px;
+  margin-top: 16px;
+  font-family: Sora;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.16px;
+  color: #ffffff;
+}
+.flex-timer {
+  width: 212px;
+  height: 79px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #262840;
+}
+.flex-timer-image {
+  width: 67px;
+  height: 21px;
+}
+.show-timer {
+  width: 76px;
+  height: 28px;
+  border-radius: 4px;
+  padding: 6px 10px;
+  background-color: rgb(101, 24, 152, 0.3);
+  color: #514CFF;
+  font-family: Sora;
+  font-size: 13px;
+  font-weight: 600;
+}
+.flex-bidding-stats {
+  width: 212px;
+  height: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.flex-bidding-stats-figure {
+  width: 154px;
+  height: 21px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  color: #7780A1;
+}
+.flex-bidding-stats img {
+  width: 16.67px;
+  height: 14.86px;
+}
+
+.show-more-3 {
+  width: 172px;
+  height: 52px;
+  border: 2px solid #262840;
+  border-radius: 12px;
+  color: #7780A1;
+  background-color: inherit;
+  margin-left: 600px;
+  margin-top: 100px;
+  padding: 16px 24px;
+}
 /*-----7th section-----*/
 .section-with-icons {
   width: 920px;
