@@ -752,14 +752,130 @@ section {
   height: 135px;
   margin-left: 500px;
   margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-icon-container {
+  width: 212px;
+  height: 131px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.first-icon-container img {
+  width: 32px;
+  height: 32px;
+}
+.icon-price {
+  width: 223px;
+  height: 55px;
+  font-family: Sora;
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+.first-icon-container p {
+  width: 223px;
+  height: 24px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7780A1;
+  text-align: center;
 }
 
 /*----8th section styling---*/
 .folder-section {
-  width: 920px;
+  width: 1392px;
   height: 597px;
-  margin-left: 500px;
+  margin-left: 264px;
   margin-top: 100px;
+}
+.folder-section img {
+  width: 370px;
+  height: 42px;
+}
+.eight-section-details {
+  width: 1392px;
+  height: 558px;
+  margin-top: -5px;
+  border-radius: 0 20px 20px 20px;
+  background-color: #1E1F2B;
+  border: 1px solid #1E1F2B;
+  display: flex;
+}
+.eight-section-left {
+  width: 565px;
+  height: 379px;
+  margin-top: 100px;
+  margin-left: 118px;
+}
+.overline-8 {
+  width: 263px;
+  height: 18px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18.5px;
+  color: #7780A1;
+}
+.eight-section-left h2 {
+  width: 565px;
+  height: 165px;
+  font-family: Sora;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 55.2px;
+  color: #ffffff;
+  margin-top: 30px;
+}
+.eight-section-french {
+  width: 459px;
+  height: 48px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7780A1;
+}
+.eight-section-buttons {
+  width: 302px;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+.eight-section-buttons button {
+  height: 52px;
+  border-radius: 12px;
+  padding: 16px 24px;
+  box-shadow: 2px 2px 4px #ffffff, -4px -4px 4px #000000;
+  border-radius: 12px;
+}
+.eight-section-buttons .button-1 {
+  width: 144px;
+  background-color: #4745D0;
+  color: #ffffff;
+}
+.eight-section-buttons .button-2 {
+  width: 142px;
+  color: #7780A1;
+  background-color: inherit;
+  border: 2px solid #262840;
+}
+.group-of-users {
+  width: 996px;
+  height: 426px;
+  margin-top: 56px;
+}
+.group-of-users img {
+  width: 996px;
+  height: 426px;
 }
 
 /*----9th section - scrolling section------*/
