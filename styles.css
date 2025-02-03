@@ -119,7 +119,6 @@ nav p {
   width: 238px;
   height: 24px;
   margin-left: 32px;
-  /*margin-right: 29px;*/
   color: #262840;
   opacity: 0.5;
   font-family: Inter;
@@ -130,7 +129,6 @@ nav p {
 .category-container {
   width: 162px;
   height: 28px;
-  /*margin-top: 17px;*/
   margin-left: 9px;
   border-left: 1px solid rgb(20, 20, 35, 0.2);
   display: flex;
@@ -141,7 +139,6 @@ nav p {
   width: 42px;
   height: 24px;
   margin-left: 16px;
-  /*margin-top: 2px;*/
   font-family: Inter;
   font-weight: 400;
   font-size: 16px;
@@ -151,7 +148,6 @@ nav p {
 .category-container img {
   width: 10px;
   height: 10px;
-  /*margin-top: 10px;*/
   opacity: 0.5;
 }
 .search-icon {
@@ -159,12 +155,26 @@ nav p {
   height: 24px;
   margin-right: 48px;
 }
+
 .logotype {
   width: 670px;
   height: 45px;
   position: absolute;
   top: 1011px;
   left: 625px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ritter-sport {
+  width: 60.14px;
+  height: 45px;
+}
+.nike,
+.adidas,
+.holland {
+  width: 85px;
+  height: 45px;
 }
 
 section {
